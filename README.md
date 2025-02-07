@@ -1,4 +1,4 @@
-## **Film Folio: Movie Insights Platform**  
+## **🍿Film Folio: Movie Insights Platform**  
 
 Film Folio is a dynamic, feature-rich movie platform that provides users with the ability to explore movie details, discover trending films, and access information on genres, ratings, and more, ensuring an engaging movie browsing experience.
 
