@@ -1,140 +1,50 @@
-## **🍿Film Folio: Movie Insights Platform**  
 
-Film Folio is a dynamic, feature-rich movie platform that provides users with the ability to explore movie details, discover trending films, and access information on genres, ratings, and more, ensuring an engaging movie browsing experience.
+# 🎬 **Film Folio: Movie Insights Platform**
 
----
-
-### **🚀 Features**  
-
-✅ **TMDB API Integration**:  
-Access detailed movie information, including genre, actors, cast, runtime, release date, box office, ratings, trending movies, and TV shows.  
-
-🎥 **Automated Carousel**:  
-Display trending movies on the homepage with a carousel, enhancing user retention and interaction by 40%.  
-
-🔍 **Search Functionality**:  
-Users can search for any movie, improving search efficiency by 30%.  
-
-🎬 **Filtering by Genre**:  
-Filter movies by genre (e.g., fantasy, thriller, comedy) and sort results by A-Z, Z-A, release date, or popularity.  
-
-🔥 **Trending Movies Filtering**:  
-Filter trending movies by day or week, and toggle between movies and TV shows for an enriched browsing experience.  
-
-📑 **Pagination**:  
-Pagination for every page (trending, discover, people), improving navigation efficiency by 20%.  
+Film Folio is a dynamic, feature-rich platform that allows users to explore detailed movie information, discover trending films, and filter movies by genre, ratings, and more, offering an engaging and seamless movie-browsing experience.
 
 ---
 
-### **📸 Screenshots**  
-*(Add your images here)*  
+## 🚀 **Features**
 
-- **Homepage with Trending Movies**  
-  ![Homepage](#)  
-
-- **Movie Search Results**  
-  ![Search Results](#)  
-
----
-
-### **🔗 Live Demo**  
-Experience Film Folio in action: [Live Demo](#)  
+✅ **TMDB API Integration** – Access detailed movie information including genre, actors, cast, runtime, release date, box office, ratings, and more.  
+🎥 **Automated Carousel** – Display trending movies on the homepage with a seamless carousel.  
+🔍 **Movie Search** – Quick and efficient movie search functionality to find your favorite movies.  
+🎬 **Genre Filtering** – Filter movies by genres like fantasy, thriller, comedy, and more.  
+🔥 **Trending Movies** – Filter trending movies by day or week, and toggle between movies and TV shows.  
+📑 **Pagination** – Navigate through pages like trending, discover, and people with ease.
 
 ---
 
-### **💻 Tech Stack**  
+## 🔧 **Tech Stack**
 
-#### **Frontend**:  
-- React.js  
-- Tailwind CSS  
-- JavaScript  
-- HTML5  
-
-#### **API**:  
-- TMDB API  
+- **Frontend**: React.js, Tailwind CSS, JavaScript  
+- **API**: TMDB API  
+- **Authentication**: JWT  
+- **Hosting**: Vercel (or any preferred platform)
 
 ---
 
-### **🛠️ Installation**  
+## 📜 **How to Use**
 
-1. **Clone the Repository**:  
-   ```bash  
-   git clone https://github.com/mohandasss/filmfolio.git  
-   cd filmfolio  
-   ```  
+Clone the repository:  
+```sh
+git clone https://github.com/mohandasss/filmfolio.git
+```
 
-2. **Frontend Setup**:  
-   - Navigate to the frontend directory:  
-     ```bash  
-     cd frontend  
-     npm install  
-     npm start  
-     ```  
+Navigate to the project folder:  
+```sh
+cd filmfolio
+```
 
-3. **Open the Application**:  
-   - Navigate to `http://localhost:3000` in your browser.  
+Install dependencies:  
+```sh
+cd frontend && npm install  
+```
 
----
-
-### **📡 API Endpoints**  
-*(Add details if applicable)*  
-
-**Base URL**: `https://api.themoviedb.org/3/`  
-
-**Endpoints**:  
-- `/trending/movie/day` - Fetch today's trending movies.  
-- `/movie/{movie_id}` - Fetch detailed information for a specific movie.  
-- `/search/movie` - Search for a specific movie by title.  
-
----
-
-### **📅 Future Enhancements**  
-
-- Add personalized movie recommendations based on user preferences.  
-- Implement a user rating system for movies.  
-- Enable users to save favorite movies for later reference.  
-
----
-
-### **📊 Impact Metrics**  
-
-- **40% Increase in User Retention**: Engaging carousel for trending movies.  
-- **30% Faster Search**: Efficient movie search functionality.  
-- **25% Increase in User Engagement**: Genre-based filtering and sorting.  
-
----
-
-### **👤 About the Author**  
-
-**Mohan Das**  
-- 💼 [LinkedIn](https://www.linkedin.com/in/mdas004/)  
-- 💻 [GitHub](https://github.com/mohandasss)  
-
----
-
-### **📜 License**  
-
-This project is licensed under the MIT License. See the LICENSE file for more details.  
-
----
-
-### **🤝 Contributing**  
-
-Contributions are welcome!  
-
-1. **Fork the repository**.  
-2. **Create your feature branch**:  
-   ```bash  
-   git checkout -b feature/YourFeature  
-   ```  
-3. **Commit your changes**:  
-   ```bash  
-   git commit -m 'Add YourFeature'  
-   ```  
-4. **Push to the branch**:  
-   ```bash  
-   git push origin feature/YourFeature  
-   ```  
-5. **Open a pull request**.  
+Run the development server:  
+```sh
+npm start  
+```
 
 ---
